@@ -41,9 +41,7 @@
             this.CountTimer = new System.Windows.Forms.Timer(this.components);
             this.MainMenuStrip = new System.Windows.Forms.MenuStrip();
             this.FileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.ExportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.SettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.Lasted20DataGridView)).BeginInit();
             this.MainMenuStrip.SuspendLayout();
@@ -168,25 +166,18 @@
             this.MainMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.MainMenuStrip.Name = "MainMenuStrip";
             this.MainMenuStrip.Padding = new System.Windows.Forms.Padding(13, 4, 0, 4);
-            this.MainMenuStrip.Size = new System.Drawing.Size(800, 44);
+            this.MainMenuStrip.Size = new System.Drawing.Size(800, 46);
             this.MainMenuStrip.TabIndex = 7;
             this.MainMenuStrip.Text = "menuStrip1";
             // 
             // FileToolStripMenuItem
             // 
             this.FileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripSeparator2,
             this.SettingsToolStripMenuItem,
-            this.ExportToolStripMenuItem,
-            this.toolStripSeparator1});
+            this.ExportToolStripMenuItem});
             this.FileToolStripMenuItem.Name = "FileToolStripMenuItem";
             this.FileToolStripMenuItem.Size = new System.Drawing.Size(103, 38);
             this.FileToolStripMenuItem.Text = "ファイル";
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(356, 6);
             // 
             // ExportToolStripMenuItem
             // 
@@ -194,11 +185,6 @@
             this.ExportToolStripMenuItem.Name = "ExportToolStripMenuItem";
             this.ExportToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
             this.ExportToolStripMenuItem.Text = "エクスポート(開発中)";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(356, 6);
             // 
             // SettingsToolStripMenuItem
             // 
@@ -244,10 +230,8 @@
         private System.Windows.Forms.Timer CountTimer;
         private System.Windows.Forms.MenuStrip MainMenuStrip;
         private System.Windows.Forms.ToolStripMenuItem FileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem SettingsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ExportToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
     }
 }
 
