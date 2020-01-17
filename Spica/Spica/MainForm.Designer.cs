@@ -155,6 +155,10 @@
             this.ToWork.ReadOnly = true;
             this.ToWork.Width = 163;
             // 
+            // CountTimer
+            // 
+            this.CountTimer.Tick += new System.EventHandler(this.CountTimer_Tick);
+            // 
             // MainMenuStrip
             // 
             this.MainMenuStrip.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
@@ -164,7 +168,7 @@
             this.MainMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.MainMenuStrip.Name = "MainMenuStrip";
             this.MainMenuStrip.Padding = new System.Windows.Forms.Padding(13, 4, 0, 4);
-            this.MainMenuStrip.Size = new System.Drawing.Size(800, 46);
+            this.MainMenuStrip.Size = new System.Drawing.Size(800, 44);
             this.MainMenuStrip.TabIndex = 7;
             this.MainMenuStrip.Text = "menuStrip1";
             // 
@@ -217,6 +221,7 @@
             this.Controls.Add(this.TimerDayLabel);
             this.Name = "MainForm";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Lasted20DataGridView)).EndInit();
             this.MainMenuStrip.ResumeLayout(false);
             this.MainMenuStrip.PerformLayout();
